@@ -1,4 +1,5 @@
 console.log('Loaded!');
+
 var marginRight=0;
 function moveRight(){
     marginRight=mirginRight+1;
