@@ -4,7 +4,7 @@ function moveRight(){
     marginRight=mirginRight+1;
     movimg.style.marginRight=marginRight+px;
 }
-var element = get.ElementById('movimg');
+var element = document.getElementById('movimg');
 element.onclick = function(){
     var interval=setinterval(moveRight,100);
 };
