@@ -7,5 +7,5 @@ function moveRight(){
 }
 var element = document.getElementById('movimg');
 element.onclick = function(){
-    var interval=setInterval(moveRight,100);
+    var interval = setInterval(moveRight,100);
 };
