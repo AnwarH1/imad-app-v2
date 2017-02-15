@@ -9,3 +9,6 @@ var element = document.getElementById('movimg');
 element.onclick = function(){
     var interval = setInterval(moveRight,100);
 };
+
+// fitness
+var x = document.getElementsByTagName("img").item(0);
