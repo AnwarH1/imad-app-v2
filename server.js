@@ -22,6 +22,15 @@ app.get('/article-three', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'articleThree.html'));
 });
 
+app.get('/article-four', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'articleFour.html'));
+});
+
+app.get('/article-five', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'articleFive.html'));
+});
+
+
 app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
 });
