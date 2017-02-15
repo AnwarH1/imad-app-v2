@@ -11,4 +11,7 @@ element.onclick = function(){
 };
 
 // fitness
-var x = document.getElementsByTagName("img").item(0);
+
+var x = document.getElementById("img0");
+x.setAttribute("src", "first-pic.jpg");
+
